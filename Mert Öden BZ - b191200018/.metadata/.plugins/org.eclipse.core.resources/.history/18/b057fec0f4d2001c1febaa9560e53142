@@ -1,0 +1,12 @@
+
+public class BlokChain {
+	public static void main(String[] args) 
+	{
+		String Deneme = "havalar çok güzel";
+		int hashdeger = Deneme.hashCode();
+		
+		System.out.println("deneme = " + Deneme + "hash degeri = " + hashdeger);
+	}
+	
+
+}

@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+
+public class BlokChain {
+	public static void main(String[] args) 
+	{
+		String Deneme = "havalar çok gdfgdf güzel";
+		int hashdeger = Deneme.hashCode();
+		
+		System.out.println("deneme = " + Deneme + "hash degeri = " + hashdeger);
+		
+		ArrayList<Blok> blockChain = new ArrayList<Blok>();
+		
+		String[] initialValues = {"mert has $700", "hasan has #550"};
+		Blok firstBlock = new Blok(initialValues,0);
+		blockChain.add(firstBlock);
+		System.out.println("ilk blok : " + firstBlock.toString());
+	}
+	
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Mert\OneDrive\Desktop\Mert Öden BZ - b191200018\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+742896323.index
+455801392.index
